@@ -1,0 +1,2176 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "01a38912",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\ta\tb\tc\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"\\ta\\tb\\tc\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "7bf01b42",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\\\\\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"\\\\\\\\\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "d7fde919",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " ' \n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\" ' \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "a75a8b2a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\"\"\"\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"\\\"\\\"\\\"\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "7622dba2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "C:\n",
+      "in\the downward spiral\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"C:\\nin\\the downward spiral\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 112,
+   "id": "e0e964aa",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "/ \\ // \\ /// \\\\\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"/ \\ // \\\\ /// \\\\\\\\\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "e894f1b0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "This quote is from \n",
+      "Irish poet Oscar Wilde:\n",
+      "\"Music makes one feel so romantic\n",
+      "- at least it always gets on one's nerves-\n",
+      "which is the same things nowadays.\"\n"
+     ]
+    }
+   ],
+   "source": [
+    "print ('This quote is from \\nIrish poet Oscar Wilde:\\n\"Music makes one feel so romantic\\n- at least it always gets on one\\'s nerves-\\nwhich is the same things nowadays.\"')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "bb8e607e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "A \"quoted\" String is \n",
+      "'much' better if you learn \n",
+      "the rule of \"escape sequence.\" \n",
+      "Also, \"\" represents an empty String.\n",
+      "Don't forget: use \\ \" instead of \" ! \n",
+      "'' is not the same as \"\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"A \\\"quoted\\\" String is \\n'much' better if you learn \\nthe rule of \\\"escape sequence.\\\" \\nAlso, \\\"\\\" represents an empty String.\\nDon't forget: use \\ \\\" instead of \\\" ! \\n'' is not the same as \\\"\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "b4682406",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1.8"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "9/5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "24a5be63",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "15"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "695 % 20"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "18c613a0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "37"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "7 + 6 * 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "183ce440",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "47"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "7 * 6 + 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "b3a89ef6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "9.6"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "248%100/5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "10b9bf75",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "15.75"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "6*3-9/4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "1dbfc7ec",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "-8"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "(5-7)*4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "7d4cee09",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "9"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "6+(18% (17-12))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b00bf894",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "94f66c8e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Exercise 3 assignment"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b63b4bb3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#1. Maximum Value of the given list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "450e1421",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "letr = [2,4,7,4,23,5,1,4,8,9]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "ad3fe793",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The Max Number above is: 23\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"The Max Number above is:\", max(letr))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b41b978f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d0770a1e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#2. Average value of the given list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "c42965bc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "list_x = [4,7,1,5,11,53,12,46,84,23]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "21ca2b02",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "AX=(sum (list_x))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "3a9ab787",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "AB=(len(list_x))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "31ce75b8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Average= 24.6\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"Average=\", AX/AB)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "483bca3b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "37134518",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#3. in reverse order"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "e6ef41d2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "list_n = [2,6,7,45,23,53,14,45,89,5]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "912adc5a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "list_n.reverse()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "bf4ece80",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[5, 89, 45, 14, 53, 23, 45, 7, 6, 2]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (list_n)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5da16359",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "edf48a95",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#4.Write a program that accepts two lists of integers and prints true if each element in the first list is less than the element at the same index in the second list. Your program should print false if the lists are not the same length"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "c74eba6d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Vegetables =[5,30,17,29,9,12,6]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "698b10cc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "fruits=[26,80,19,7,30,25,]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "b4aeec40",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "AV=(len(Vegetables))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "6a7b3efc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "AF=(len(fruits))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "ee0b1744",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "false\n"
+     ]
+    }
+   ],
+   "source": [
+    "print ('false' if ((AV) != (AF)) else 'true')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "7d298950",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "false\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('true' if((Vegetables[0]< fruits[0])and(Vegetables[1]< fruits[1])and(Vegetables[2]< fruits[2])and(Vegetables[3]< fruits[3])and(Vegetables[4]< fruits[4])and(Vegetables[5]< fruits[5])) else 'false')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0ecfdefa",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "20e53b4e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#5. Write a program that accepts a list of integers and two indexes and swaps the elements at those indexes"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "4045f46c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Sales =[66,95,4,27,18,62,7]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "0eecbaa6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Cars=[9,7,44,56,78,90,5]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "bf3abe00",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Sales[0],Cars[1]= Cars[1],Sales[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "51f42491",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[9, 66, 44, 56, 78, 90, 5]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(Cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "ae278367",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[7, 95, 4, 27, 18, 62, 7]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(Sales)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "22ceeaf1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Sales[2]=Cars[3]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "336358da",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[9, 66, 44, 56, 78, 90, 5]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(Cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "ca34b716",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[7, 95, 56, 27, 18, 62, 7]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(Sales)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "55928018",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0e7df97f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#6. Write a program that accepts two lists of integers and prints a new list containing all elements of the first list followed by all elements of the second."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "0a3fc4af",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "girls=[66,23,45,16,17,8,2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "d51d1420",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[66, 23, 45, 16, 17, 8, 2]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (girls)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "96eb1be3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "boys=[31,7,54,43,32,5,6,34]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "effd9bc1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[31, 7, 54, 43, 32, 5, 6, 34]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(boys)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "553d4b69",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[66, 23, 45, 16, 17, 8, 2, 31, 7, 54, 43, 32, 5, 6, 34]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(girls+boys)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "71ec4d27",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 224,
+   "id": "a2fd09dd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#7. Write a program that accepts a list of integers and an integer value as its parameters and prints the last index at which the value occurs in the list."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "04115c02",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "states=[3,2,8,5,4,9,13,33]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "ddadb102",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "J=13"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "e9a8a2e6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "6\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (states.index(J) if ((J) in (states)) else '-1')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "023466b0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#8. Write a program that prints the range of values in a list of integers. The range is defined as 1 more than the difference between the maximum and minimum values in the list. For example, if a list contains the values [36, 12, 25, 19, 46, 31, 22], the program should return 35.You may assume that the list has at least one element.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "37215111",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "shops=[5,8,9,5,4,14,21,1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "d70f22a8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "21\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (max(shops)- min(shops) +1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3cb54f08",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cd399297",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#9. Write a program that accepts a list of integers, a minimum value, and a maximum value and prints the count of how many elements from the list fall between the minimum and maximum (inclusive). For example, in the list [14, 1, 22, 17, 36, 7, -43, 5], for minimum value 4 and maximum value 17, there are four elements whose values fall between 4 and 17."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 169,
+   "id": "721cde2d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "countries=[6,55,29,32,14,2,10,5,31]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 170,
+   "id": "75e1f78b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "countriesb=[]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 171,
+   "id": "81b4c925",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "kmax=20"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 172,
+   "id": "46749668",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "kmin=4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 173,
+   "id": "e845b29e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[None, None, None, None]"
+      ]
+     },
+     "execution_count": 173,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "[countriesb.append(i) for i in countries if kmin <=i<=kmax]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 174,
+   "id": "481e81b0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[6, 14, 10, 5]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (countriesb)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 175,
+   "id": "2cf14feb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (len (countriesb))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "833f3529",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dddc6da8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#10. Write a program that accepts a list of real numbers and prints true if the list is in sorted (nondecreasing) order and false otherwise. For example, if lists named list1 and list2 store [16.1, 12.3, 22.2, 14.4] and [1.5, 4.3, 7.0, 19.5, 25.1, 46.2] respectively, the program should print false for list1 and true for list2 respectively. Assume the list has at least one element. A one-element list is sorted"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 123,
+   "id": "d986462c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "movies=[1,5,7,2,4,8]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 124,
+   "id": "86b72401",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "moviesb=sorted(movies)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 125,
+   "id": "f1355acc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1, 2, 4, 5, 7, 8]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(moviesb)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 126,
+   "id": "e9cf3201",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1, 5, 7, 2, 4, 8]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (movies)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 127,
+   "id": "04795db8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "false\n"
+     ]
+    }
+   ],
+   "source": [
+    "print ('true' if ((movies) ==(moviesb))  else 'false')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "30c1227b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 129,
+   "id": "4d021d81",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dancers=[5,6,7,8]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 130,
+   "id": "e6fcb011",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dancersb=sorted(dancers)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 131,
+   "id": "83eeecfa",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "true\n"
+     ]
+    }
+   ],
+   "source": [
+    "print ('true' if ((dancers) ==(dancersb))  else 'false')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d8626f1c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3c66cf97",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6b7fae86",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Exercise 4.3 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "15a0868f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#1. Write a program to produce the following output using for loop"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "0e646660",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "+----+\n",
+      "\\    /\n",
+      "/    \\\n",
+      "\\    /\n",
+      "/    \\\n",
+      "\\    /\n",
+      "/    \\\n",
+      "\\    /\n",
+      "/    \\\n",
+      "+----+\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"+----+\")\n",
+    "for i in range(4):\n",
+    "    print(\"\\\\    /\")\n",
+    "    print(\"/    \\\\\")\n",
+    "print(\"+----+\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "56b01c49",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cdce8f59",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#2. Write a program to produce the following output using for loop**********"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "0b6043f6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "**********\n",
+      "**********\n",
+      "**********\n",
+      "**********\n",
+      "**********\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "for i in range(5):\n",
+    "    for j in range(10):\n",
+    "        print(\"*\", end=\"\")\n",
+    "    print()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cb41a5a5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "63286673",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#3. Complete the code for the following for loop"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "8266ba15",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n"
+     ]
+    }
+   ],
+   "source": [
+    "for t in range(1,7):\n",
+    "    print(t)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "4f0997c4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2\n",
+      "4\n",
+      "6\n",
+      "8\n",
+      "10\n",
+      "12\n"
+     ]
+    }
+   ],
+   "source": [
+    "for y in range(2,13,2):\n",
+    "    print (y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "00541b05",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4\n",
+      "19\n",
+      "34\n",
+      "49\n",
+      "64\n",
+      "79\n"
+     ]
+    }
+   ],
+   "source": [
+    "for d in range(4,80,15):\n",
+    "    print (d)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "6c025cee",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "30\n",
+      "20\n",
+      "10\n",
+      "0\n",
+      "-10\n",
+      "-20\n"
+     ]
+    }
+   ],
+   "source": [
+    "for c in range(30,-21,-10):\n",
+    "    print (c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "id": "abf263ca",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "-7\n",
+      "-3\n",
+      "1\n",
+      "5\n",
+      "9\n",
+      "13\n"
+     ]
+    }
+   ],
+   "source": [
+    "for f in range(-7,14,4):\n",
+    "    print (f)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "36bd531f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "97\n",
+      "94\n",
+      "91\n",
+      "88\n",
+      "85\n",
+      "82\n"
+     ]
+    }
+   ],
+   "source": [
+    "for m in range(97,81,-3):\n",
+    "    print (m)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "cd49fe8c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "-4\n",
+      "14\n",
+      "32\n",
+      "50\n",
+      "68\n",
+      "86\n"
+     ]
+    }
+   ],
+   "source": [
+    "for k in range(-4,87,18):\n",
+    "    print (k)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "080ff2f0",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "863e43ea",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#4. Write a program to produce the following output using for loops. Then use a class constant to make it possible to change the number of lines in the figure."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "d33d2130",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "22\n",
+      "333\n",
+      "4444\n",
+      "55555\n",
+      "666666\n",
+      "7777777\n"
+     ]
+    }
+   ],
+   "source": [
+    "class FigurePattern:\n",
+    "    LINES = 7\n",
+    "\n",
+    "    @classmethod\n",
+    "    def print_figure(cls):\n",
+    "        for i in range(1, cls.LINES + 1):\n",
+    "            print(str(i) * i)\n",
+    "\n",
+    "\n",
+    "FigurePattern.print_figure()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "702a82ca",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "024f0745",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#5. Write a method named pay that accepts two parameters: a real number for a TA's salary, and an integer for the number of hours the TA worked this week. The method should return how much money to pay the TA"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "id": "36937818",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "salary=6"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 99,
+   "id": "c95be523",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "hours=7"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 100,
+   "id": "1a3aeb0a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def pay(salary,hours):\n",
+    "    if hours >8:\n",
+    "        payment=(8*salary)+((hours-8)*(1.5*salary))\n",
+    "    else: payment = hours*salary\n",
+    "    return payment"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 101,
+   "id": "5af3bd27",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "paysalary=pay(salary,hours)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 102,
+   "id": "41938d09",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "42\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (paysalary)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "866dac4d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "69c2076b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#6.Consider the following method for converting milliseconds into days"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 119,
+   "id": "0713826a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def area(radius):\n",
+    "    return radius*radius*3.142\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 120,
+   "id": "badc5460",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "circle=area(2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 121,
+   "id": "a7ed85ec",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "12.568\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (circle)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8fa0d78c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c2094dc3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#7.Copy and paste the following code into pythons IDLE script environment. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 131,
+   "id": "97d10332",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is the value of low?300\n",
+      "What is the value of high?5298\n",
+      "sum =  13986903\n"
+     ]
+    }
+   ],
+   "source": [
+    "low = int(input('What is the value of low?'))\n",
+    "high = int(input('What is the value of high?'))\n",
+    "sum = 0\n",
+    "for i in range(low,high):\n",
+    "    sum += i\n",
+    " \n",
+    "print(\"sum = \" , sum)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "36770d48",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "14dd16a5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#8. Write a program using while loop that prompts the user for numbers until the user types 0, then outputs their sum"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 133,
+   "id": "db1b9f50",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter a number,enter 0 to end7\n",
+      "Enter a number,enter 0 to end10\n",
+      "Enter a number,enter 0 to end12\n",
+      "Enter a number,enter 0 to end14\n",
+      "Enter a number,enter 0 to end16\n",
+      "Enter a number,enter 0 to end18\n",
+      "Enter a number,enter 0 to end20\n",
+      "Enter a number,enter 0 to end22\n",
+      "Enter a number,enter 0 to end24\n",
+      "Enter a number,enter 0 to end26\n",
+      "Enter a number,enter 0 to end28\n",
+      "Enter a number,enter 0 to end0\n",
+      "197.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "n_sum=0\n",
+    "numbers=float(input('Enter a number,enter 0 to end'))\n",
+    "while numbers !=0:\n",
+    "    n_sum +=numbers\n",
+    "    numbers=float(input('Enter a number,enter 0 to end'))\n",
+    "print (n_sum)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f5cc1ee4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d0579a80",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#9.Write a program using while loop that prompts the user for numbers until the user types -1, then outputs their sum."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "3b175856",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter a number,enter -1 to end4\n",
+      "Enter a number,enter -1 to end6\n",
+      "Enter a number,enter -1 to end7\n",
+      "Enter a number,enter -1 to end8\n",
+      "Enter a number,enter -1 to end9\n",
+      "Enter a number,enter -1 to end-1\n",
+      "33.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "n_sum=-1\n",
+    "numbers=float(input('Enter a number,enter -1 to end'))\n",
+    "while numbers !=-1:\n",
+    "    n_sum +=numbers\n",
+    "    numbers=float(input('Enter a number,enter -1 to end'))\n",
+    "print (n_sum)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "966676a9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e321ec3f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#10. Write a method named repl that accepts a String and a number of repetitions as parameters and returns the String concatenated that many times. For example, the call repl(\"hello\", 3) returns \"hellohellohello\". If the number of repetitions is 0 or less, an empty string is returned"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "d399a235",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hellohellohello\n"
+     ]
+    }
+   ],
+   "source": [
+    "def repl(String,repetition):\n",
+    "    if repetition <=0:\n",
+    "        return''\n",
+    "    else:\n",
+    "        return String*repetition\n",
+    "answer=repl('hello',3)\n",
+    "print (answer)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "64c0d56b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dbc88dec",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#11.Write a method called printRange that accepts two integers as arguments and prints the sequence of numbers between the two arguments, separated by spaces. Print an increasing sequence if the first argument is smaller than the second; otherwise, print a decreasing sequence. If the two numbers are the same, that number should be printed by itself. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "b45ac61e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2 3 4 5 6 7 19 18 17 16 15 14 13 12 11 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "def printRange(num1, num2):\n",
+    "    if num1 < num2:\n",
+    "        for num in range(num1, num2 + 1):\n",
+    "            print(num, end=\" \")\n",
+    "    elif num1 > num2:\n",
+    "        for num in range(num1, num2 - 1, -1):\n",
+    "            print(num, end=\" \")\n",
+    "    else:\n",
+    "        print(num1)\n",
+    "\n",
+    "# Sample calls\n",
+    "printRange(2, 7)\n",
+    "printRange(19, 11)\n",
+    "printRange(5, 5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "12c3da83",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2399728d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#12.Write a method named smallestLargest that asks the user to enter numbers, then prints the smallest and largest of all the numbers typed in by the user. You may assume the user enters a valid number greater than 0 for the number of numbers to read. Here is an example dialogue:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "5c12917c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "How many numbers do you want to enter? 4\n",
+      "Number 1: 5\n",
+      "Number 2: 13\n",
+      "Number 3: 4\n",
+      "Number 4: 2\n",
+      "Smallest = 2.0\n",
+      "Largest = 13.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "def smallestLargest():\n",
+    "    num_count = int(input(\"How many numbers do you want to enter? \"))\n",
+    "    \n",
+    "    if num_count <= 0:\n",
+    "        print(\"Please enter a valid number greater than 0.\")\n",
+    "        return\n",
+    "    \n",
+    "    numbers = []\n",
+    "\n",
+    "    for i in range(1, num_count + 1):\n",
+    "        number = float(input(f\"Number {i}: \"))\n",
+    "        numbers.append(number)\n",
+    "\n",
+    "    if numbers:\n",
+    "        smallest = min(numbers)\n",
+    "        largest = max(numbers)\n",
+    "\n",
+    "        print(f\"Smallest = {smallest}\")\n",
+    "        print(f\"Largest = {largest}\")\n",
+    "\n",
+    "# Call the method\n",
+    "smallestLargest()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "276eb9fe",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5b1ba7a4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#13.Write a method called printAverage that uses a sentinel loop to repeatedly prompt the user for numbers. Once the user types any number less than zero, the method should display the average of all nonnegative numbers typed. Display the average as a double. Here is a sample dialogue with the user:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "0ede3e0c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Type a number: 6\n",
+      "Type a number: 7\n",
+      "Type a number: 8\n",
+      "Type a number: 9\n",
+      "Type a number: -4\n",
+      "Average was 7.5\n"
+     ]
+    }
+   ],
+   "source": [
+    "def printAverage():\n",
+    "    total = 0\n",
+    "    count = 0\n",
+    "    first_input = True\n",
+    "\n",
+    "    while True:\n",
+    "        num = float(input(\"Type a number: \"))\n",
+    "        \n",
+    "        if first_input and num < 0:\n",
+    "            print(\"No numbers were entered.\")\n",
+    "            break\n",
+    "        \n",
+    "        first_input = False\n",
+    "        \n",
+    "        if num < 0:\n",
+    "            average = total / count\n",
+    "            print(f\"Average was {average:.1f}\")\n",
+    "            break\n",
+    "        \n",
+    "        total += num\n",
+    "        count += 1\n",
+    "\n",
+    "# Call the method\n",
+    "printAverage()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4d88bacf",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "99d8f9d2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#14. Write a method named numUnique that takes three integers as parameters and returns the number of unique integers among the three. For example, the call numUnique(18, 3, 4) should return 3 because the parameters have three different values. By contrast, the call numUnique(6, 7, 6)should return 2 because there are only two unique numbers among the three parameters: 6 and 7."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "ebb63461",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n",
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "def numUnique(num1, num2, num3):\n",
+    "    unique_numbers = set([num1, num2, num3])\n",
+    "    return len(unique_numbers)\n",
+    "\n",
+    "result1 = numUnique(17, 7, 12)\n",
+    "print(result1)  # Output should be 3\n",
+    "\n",
+    "result2 = numUnique(2, 4, 6)\n",
+    "print(result2)  # Output should be 2\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "29089182",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b3839c36",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#15. A Random object generates pseudo-random numbers. Find out how to use the Random class and write a program that simulates rolling of two 6-sided dice until their combined result comes up as 7. One possible output "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "6ea15f05",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4 + 5 = 9\n",
+      "6 + 3 = 9\n",
+      "2 + 6 = 8\n",
+      "4 + 2 = 6\n",
+      "2 + 4 = 6\n",
+      "4 + 2 = 6\n",
+      "3 + 1 = 4\n",
+      "5 + 1 = 6\n",
+      "2 + 2 = 4\n",
+      "1 + 2 = 3\n",
+      "5 + 6 = 11\n",
+      "3 + 2 = 5\n",
+      "5 + 3 = 8\n",
+      "4 + 1 = 5\n",
+      "5 + 3 = 8\n",
+      "3 + 5 = 8\n",
+      "5 + 4 = 9\n",
+      "1 + 2 = 3\n",
+      "4 + 4 = 8\n",
+      "3 + 2 = 5\n",
+      "3 + 3 = 6\n",
+      "5 + 6 = 11\n",
+      "6 + 5 = 11\n",
+      "6 + 2 = 8\n",
+      "5 + 6 = 11\n",
+      "6 + 4 = 10\n",
+      "4 + 2 = 6\n",
+      "6 + 6 = 12\n",
+      "1 + 5 = 6\n",
+      "2 + 5 = 7\n",
+      "You won after 30 tries!\n"
+     ]
+    }
+   ],
+   "source": [
+    "import random\n",
+    "\n",
+    "def roll_dice_until_seven():\n",
+    "    attempts = 0\n",
+    "    \n",
+    "    while True:\n",
+    "        dice1 = random.randint(1, 6)\n",
+    "        dice2 = random.randint(1, 6)\n",
+    "        \n",
+    "        total = dice1 + dice2\n",
+    "        \n",
+    "        print(f\"{dice1} + {dice2} = {total}\")\n",
+    "        \n",
+    "        attempts += 1\n",
+    "        \n",
+    "        if total == 7:\n",
+    "            print(f\"You won after {attempts} tries!\")\n",
+    "            break\n",
+    "\n",
+    "roll_dice_until_seven()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f8280a89",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
